@@ -1,3 +1,3 @@
 # breakrevextramode
 
-All the Extra Mode Changes applied plus some extra
+All the Extra Mode changes applied
