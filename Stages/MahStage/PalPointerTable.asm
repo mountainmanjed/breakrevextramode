@@ -1,0 +1,19 @@
+loc_0968d0:
+    dc.l loc_0ee4ea,loc_0ee50a,loc_0ee52a,loc_0ee54a
+    dc.l loc_0ee56a,loc_0ee58a,loc_0ee5aa,loc_0ee5ca
+    dc.l loc_0ee5ea,loc_0ee60a,loc_0ee62a,loc_0ee64a
+    dc.l loc_0ee66a,loc_0ee68a,loc_0ee6aa,loc_0ee6ca
+    dc.l loc_0ee6ea,loc_0ee70a,loc_0ee72a,loc_0ee74a
+    dc.l loc_0ee76a,loc_0ee78a,loc_0ee7aa,loc_0ee7ca
+    dc.l loc_0ee7ea,loc_0ee80a,loc_0ee82a,loc_0ee84a
+    dc.l loc_0ee86a,loc_0ee88a,loc_0ee8aa,loc_0ee8ca
+    dc.l loc_0ee8ea,loc_0ee90a,loc_0ee92a,loc_0ee94a
+    dc.l loc_0ee96a,loc_0ee98a,loc_0ee9aa,loc_0ee9ca
+    dc.l loc_0ee9ea,loc_0eea0a,loc_0eea2a,loc_0eea4a
+    dc.l loc_0eea6a,loc_0eea8a,loc_0eeaaa,loc_0eeaca
+    dc.l loc_0eeaea,loc_0eeb0a,loc_0eeb2a,loc_0eeb4a
+    dc.l loc_0eeb6a,loc_0eeb8a,loc_0eebaa,loc_0eebca
+    dc.l loc_0eebea,loc_0eec0a,loc_0eec2a,loc_0eec4a
+    dc.l loc_0eec6a,loc_0eec8a,loc_0eecaa,loc_0eecca
+    dc.l loc_0eecea,loc_0eed0a
+    dc.l $00000000
