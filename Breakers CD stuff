@@ -1,0 +1,155 @@
+Player Addresses
+107182
+1076F2
+
++1d6 attack table
++1da collsion tbl
+
+jsr 6154 = palette load 
+
+
+
+10008D Extra Mode Flag -$7f73
+100092 Debug Dips 0x20 Life
+
+4a2d 808d
+
+sho attack tbl
+3a8c2
+
+Extra Mode Flag Checks
+BrkCD
+
+16e0e Title/options
+1940e skips ending?
+1ea62 Palette
+
+a5 stuff
+-34b = -391
+-34d = -393
+
+-394 = -3da
+
+-397 = -3dd
+-398 = -3de
+-39a = -3e0
+
+-320 = -362
+-322 = -364
+-324 = -366
+-326 = -368
+-f8a = -fd1
+-f8b = -fd2
+-45c6 = -45de
+
+counters
+237 plextcounter00
+238 plextcounter01
+239 plextcounter02
+
+Supercancel problems
+($246,a4)
+	extra01 I
+	extra13 I
+	extra23 I
+
+	extra2a6d6 I
+	extra2a7f8 I
+	extrarountine00 I
+	
+($24a,a4)
+	extra25 I
+
+
+;--------------------------------
+plextcounter00
+tst.b ($237,a4)
+206ae - S
+208f4 - S
+29036 - S
+
+plextcounter01
+tst.b ($238,a4)
+207a2 S
+
+plextcounter02
+tst.b ($239,a4)
+2a92e
+2a956
+
+combo reads
+1fb12
+
+Newfunctions
+BrkCD 
+
+2a8ac extraroutine00
+2bac8 extraroutine01
+2a5b0 extraroutine02
+
+BrkCD Dasm
+1ed28 1e1d2 D extra00 S
+1fb06 1f608 D extra01 S 5 hit combo
+1fb58 1f608 D extra02 S 
+1fbd0 1f63e D extra03 S
+1fc36 1f6d8 D extra04 S
+1fe8e 1f928 D extra05 S Timers
+
+extramode.asm
+2050c D extra06 SP
+20686 D extra07 SP
+206a4 D extra08 SP
+206be D extra09 SP
+206f2 D extra10 SP
+2077c D extra11 SP
+20798 D extra12 SP
+
+20bc6 206d2 D extra13 S sp
+22ef8 2289c D extra14 S projectiles
+2316c 22b24 D extra15 S 
+23310 22c82 D extra16 S
+23356 22cc6 D extra17 S
+2346a 22da8 D extra18 S
+2349e 22de4 D extra19 S Throws
+234fc 22e1c D extra20 S Throws
+2364e 22f5e D extra21 S Pushback?
+28f72 28f2a D extra22 S sp
+
+2902c 28fd0 D extra23 S Ground Normals
+291ca 2913c D extra24 S Post Ko Attacks
+299c4 2992c D extra25 S
+29d24 29c80 D extra26 S 
+29da0 29cdc D extra27 S
+
+29e98 29dc8 D extra28 S
+2a572 2a48a D extra29 S
+
+2a90c 2a4e4 D extra30 S Ground Grabs
+2a94c 2a518 D extra31 S Air Grabs
+2a974 2a518 D extra32 S Air Grabs
+
+2a9f2 2a59c D extra33 S
+
+2ad2e 2a89c D extra34 S Juggles
+2b59c 2b070 D extra35 S 5j
+2b73c 2b10a D extra36 S 5j
+2b8fe 2b3ba D extra37 S 5j
+2b936 2b3de D extra38 S
+2ba04 2b4a8 D extra39 S
+2ba68 2b4f8 D extra40 S
+2baec 2b54a D extra41 S
+2bcbc 2b880 / extra42	no longer exists? Heavy juggle hit?
+2bcf0 2b71e D extra43 S
+2bd3c 2b74a D extra44 S
+2bdec 2b7f8 D extra45 S
+2beb6 2b880 D extra46 S
+2bf34 2b8ec D extra47 S
+2c50a 2bebe D extra48 S
+2c7a8 2c140 D extra49 S
+2c8c2 2c23e D extra50 S
+
+2fc40
+
+orig breakers table
+884ee
+
